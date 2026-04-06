@@ -7,6 +7,7 @@ public class taskEight {
 
         Scanner input = new Scanner(System.in);
 
+        System.out.println("Input number: ");
         int num = input.nextInt();
         int digit = num - 1;
 
