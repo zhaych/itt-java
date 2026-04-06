@@ -1,6 +1,7 @@
+package Homework_L2;
 import java.util.Scanner;
 
-public class taskThree {
+public class taskThree2 {
 
     public static void main(String[] args) {
 
@@ -12,7 +13,11 @@ public class taskThree {
         System.out.println("Enter value for B:");
         double B = scan.nextDouble();
 
-        System.out.printf("B is %.2f and A is %.2f when values are reversed.", A, B);
+        double temp = A;
+        A = B;
+        B = temp;
+
+        System.out.println("A= " + A + ", B= " + B);
 
         scan.close();
     }

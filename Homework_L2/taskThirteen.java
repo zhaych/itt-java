@@ -1,3 +1,4 @@
+package Homework_L2;
 import java.util.Scanner;
 
 public class taskThirteen {
