@@ -8,15 +8,18 @@ public class taskEight {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Input number: ");
-        int num = input.nextInt();
-        int digit = num - 1;
+        int number = input.nextInt();
+        int value = number - 1;
+        int i = 0;
+        int j = 0;
+        int add = 2;
 
-        for (int i = 1; i <= num; i++) {
-            for (int j = 1; j <= num; j++) {
-                System.out.print(digit);
+        for (i = 1; i <= number; i++) {
+            for (j = 1; j <= number; j++) {
+                System.out.print(value);
             }
             System.out.println();
-            digit = digit + 2;
+            value = value + add;
         }
 
         input.close();
