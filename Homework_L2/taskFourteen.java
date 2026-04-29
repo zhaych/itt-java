@@ -18,7 +18,6 @@ public class taskFourteen {
         } else {
             System.out.println("The squares are the same color.");
         }
-        
         input.close();
     }
 }

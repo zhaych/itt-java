@@ -18,7 +18,6 @@ public class taskFour {
         } else {
             System.out.println(b + " " + a);
         }
-
         input.close();
     }
 }

@@ -23,7 +23,6 @@ public class taskNine {
         } else {
             System.out.println("One of your numbers, or both of them are not within the range.");
         }
-
         input.close();
     }
 

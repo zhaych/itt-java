@@ -39,8 +39,6 @@ public class taskSeven {
                 System.out.println("I have less than 10$, so I will go for a coffee.");
             }
         }
-
         input.close();
-
     }
 }
