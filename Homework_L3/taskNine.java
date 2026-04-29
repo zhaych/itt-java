@@ -16,6 +16,7 @@ public class taskNine {
         boolean isFirst = true;
         int maxValue = 200;
         int divider = 3; 
+        int sum = 0;
 
         for (int number = A; number <= B; number++) {
             if (isFirst) {
@@ -27,7 +28,7 @@ public class taskNine {
                 System.out.print("skip 3");
             } else {
                 System.out.print(number * number);
-                int sum = sum + number * number;
+                sum = sum + number * number;
             }
             if (sum > maxValue) {
                 break;
