@@ -10,18 +10,15 @@ public class taskEight {
         System.out.println("Input number: ");
         int number = input.nextInt();
         int value = number - 1;
-        int i = 0;
-        int j = 0;
-        int add = 2;
+        int additive = 2;
 
-        for (i = 1; i <= number; i++) {
-            for (j = 1; j <= number; j++) {
+        for (int rows = 1; rows <= number; rows++) {
+            for (int columns = 1; columns <= number; columns++) {
                 System.out.print(value);
             }
             System.out.println();
-            value = value + add;
+            value = value + additive;
         }
-
         input.close();
     }
 }
