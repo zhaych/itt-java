@@ -28,7 +28,6 @@ public class taskEleven {
         } else {
             System.out.println("Invalid number!");
         }
-        
         input.close();
     }
 }

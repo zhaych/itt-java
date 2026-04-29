@@ -17,5 +17,6 @@ public class taskSix {
             temp = temp + i; 
         }
         System.out.println(temp);
+        input.close();
     }
 }
