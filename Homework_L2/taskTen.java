@@ -55,7 +55,6 @@ public class taskTen {
         } else {
             System.out.println("Invalid number!");
         }
-
         input.close();
     }
 }

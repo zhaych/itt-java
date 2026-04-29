@@ -21,7 +21,6 @@ public class taskSeven {
             }
             start = start + 3; 
         }
-
         input.close();
     }
 }

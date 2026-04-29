@@ -21,7 +21,6 @@ public class taskThirteen {
         } else if (  temp <= -20){
             System.out.println("It's freezing!");
         }
-        
         input.close();
     }
     

@@ -33,7 +33,6 @@ public class taskFive {
         System.out.println(c + " " + b + " " + a);
       }
     }
-
     scan.close();
   }
 }

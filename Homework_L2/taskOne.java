@@ -21,7 +21,6 @@ public class taskOne {
         } else {
             System.out.printf("%.2f is NOT between %.2f and %.2f%n", C, A, B);
         }
-
         input.close();
     }
 }

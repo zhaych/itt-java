@@ -33,7 +33,6 @@ public class taskEight {
                 System.out.println("The numbers are equal!");
             }
         }
-
         input.close();
     }
 }

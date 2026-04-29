@@ -26,7 +26,6 @@ public class taskSixteen {
         } else {
             System.out.println("Invalid number!");
         }
-
         input.close();
     }
 }
