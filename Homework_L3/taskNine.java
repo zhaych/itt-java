@@ -13,23 +13,23 @@ public class taskNine {
         System.out.println("Input number B: ");
         int B = input.nextInt();
 
-        int i = 0; 
-        int sum = 0;
         boolean isFirst = true;
+        int maxValue = 200;
+        int divider = 3; 
 
-        for (i = A; i <= B; i++) {
+        for (int number = A; number <= B; number++) {
             if (isFirst) {
                 isFirst = false;
             } else {
                 System.out.print(", ");
             }
-            if (i % 3 == 0) {
+            if (number % divider == 0) {
                 System.out.print("skip 3");
             } else {
-                System.out.print(i * i);
-                sum = sum + i * i;
+                System.out.print(number * number);
+                int sum = sum + number * number;
             }
-            if (sum > 200) {
+            if (sum > maxValue) {
                 break;
             }
         }
